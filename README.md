@@ -4,4 +4,4 @@ Es el API de la aplicación de información geográfica para el control de las a
 ### Acceder al API - Heroku
 https://internic-api.herokuapp.com/explorer
 
-![Cat](https://lh5.googleusercontent.com/17Ox_Tjq1gLwGr7qNw7Bd33PxzN5CedsaWwAJerVVUyHWzJw6ui0ulH5iuOhSdO55VhiYF-sxVyDpLJjuooD=w1179-h785-rw)
+![Cat](https://firebasestorage.googleapis.com/v0/b/interlocales-nic.appspot.com/o/imagenes%20del%20proyecto%2Fproyecto-internic-api.png?alt=media&token=d0ded38f-ce48-4471-9f37-a690f0a0622e)
