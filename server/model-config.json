@@ -1,0 +1,90 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "User": {
+    "dataSource": "db"
+  },
+  "AccessToken": {
+    "dataSource": "db",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "db",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "db",
+    "public": false,
+    "options": {
+      "strictObjectIDCoercion": true
+    }
+  },
+  "Role": {
+    "dataSource": "db",
+    "public": false
+  },
+  "Cooperative": {
+    "dataSource": "db",
+    "public": true
+  },
+  "News": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Location": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Route": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Interlocal": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Stop": {
+    "dataSource": "db",
+    "public": true
+  },
+  "PictureStop": {
+    "dataSource": "db",
+    "public": true
+  },
+  "UserCooperative": {
+    "dataSource": "db",
+    "public": true
+  },
+  "UserRoute": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Comment": {
+    "dataSource": "db",
+    "public": true
+  },
+  "TypeComment": {
+    "dataSource": "db",
+    "public": true
+  },
+  "TypeUser": {
+    "dataSource": "db",
+    "public": true
+  },
+  "TypeNews": {
+    "dataSource": "db",
+    "public": true
+  }
+}

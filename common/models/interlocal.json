@@ -1,0 +1,27 @@
+{
+  "name": "Interlocal",
+  "plural": "interlocales",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "plateNumber": {
+      "type": "string",
+      "required": true
+    },
+    "fullNameDriver": {
+      "type": "string",
+      "required": true
+    },
+    "urlImage": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

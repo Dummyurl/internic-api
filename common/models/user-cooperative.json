@@ -1,0 +1,14 @@
+{
+  "name": "UserCooperative",
+  "plural": "userscooperatives",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
