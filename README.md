@@ -1,2 +1,5 @@
 # InterNIC-API
-API de la aplicación de información geográfica para el control de las actividades de los Interlocales en Nicaragua.  Esta herramienta móvil, permitirá a los usuarios comunes ver los recorridos de estos medios de trasporte hacia los distintos departamentos, además, dispondrá de características relacionadas con el manejo de sesiones, con lo cual las cooperativas podrán describir, su información detallada, sus servicios. Entre los cuales destacan: disponibilidad actual de su flota, actividad en las diferentes paradas, es decir: actualmente hay interlocales disponibles o están espera, principales paradas (esto para las que cuentan distintas rutas), costo actual del pasaje, horarios de servicio.
+Es el API de la aplicación de información geográfica para el control de las actividades de los Interlocales en Nicaragua.
+
+### Acceder al API - Heroku
+https://internic-api.herokuapp.com/explorer
