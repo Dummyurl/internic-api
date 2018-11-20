@@ -18,6 +18,10 @@
     "name": {
       "type": "string",
       "required": true
+    },
+    "createAt": {
+      "type": "date",
+      "required": false
     }
   },
   "validations": [],

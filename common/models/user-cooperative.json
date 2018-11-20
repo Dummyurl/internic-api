@@ -6,9 +6,31 @@
   "options": {
     "validateUpsert": true
   },
-  "properties": {},
+  "properties": {
+    "createAt": {
+      "type": "date",
+      "required": false
+    }
+  },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "cooperatives": {
+      "type": "belongsTo",
+      "model": "Cooperative",
+      "foreignKey": "cooperativeID",
+      "options": {
+        "nestRemoting": true
+      }
+    },
+    "users": {
+      "type": "belongsTo",
+      "model": "User",
+      "foreignKey": "userID",
+      "options": {
+        "nestRemoting": true
+      }
+    }
+  },
   "acls": [],
   "methods": {}
 }

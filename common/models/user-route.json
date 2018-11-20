@@ -10,10 +10,31 @@
     "date": {
       "type": "date",
       "required": true
+    },
+    "createAt": {
+      "type": "date",
+      "required": false
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "route": {
+      "type": "belongsTo",
+      "model": "Route",
+      "foreignKey": "routeID",
+      "options": {
+        "nestRemoting": true
+      }
+    },
+    "user": {
+      "type": "belongsTo",
+      "model": "User",
+      "foreignKey": "userID",
+      "options": {
+        "nestRemoting": true
+      }
+    }
+  },
   "acls": [],
   "methods": {}
 }

@@ -26,10 +26,23 @@
     "cost": {
       "type": "number",
       "required": true
+    },
+    "createAt": {
+      "type": "date",
+      "required": false
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "stops": {
+      "type": "hasMany",
+      "model": "Stop",
+      "foreignKey": "routeID",
+      "options": {
+        "nestRemoting": true
+      }
+    }
+  },
   "acls": [],
   "methods": {}
 }

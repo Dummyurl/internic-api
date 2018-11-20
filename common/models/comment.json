@@ -18,10 +18,31 @@
     "description": {
       "type": "string",
       "required": true
+    },
+    "createAt": {
+      "type": "date",
+      "required": false
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "users": {
+      "type": "belongsTo",
+      "model": "User",
+      "foreignKey": "userID",
+      "options": {
+        "nestRemoting": true
+      }
+    },
+    "typeComment": {
+      "type": "belongsTo",
+      "model": "TypeComment",
+      "foreignKey": "typeCommentID",
+      "options": {
+        "nestRemoting": true
+      }
+    }
+  },
   "acls": [],
   "methods": {}
 }

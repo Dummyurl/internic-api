@@ -30,10 +30,31 @@
     "fullName": {
       "type": "string",
       "required": true
+    },
+    "createAt": {
+      "type": "date",
+      "required": false
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "location": {
+      "type": "belongsTo",
+      "model": "Location",
+      "foreignKey": "locationID",
+      "options": {
+        "nestRemoting": true
+      }
+    },
+    "routes": {
+      "type": "hasMany",
+      "model": "Route",
+      "foreignKey": "cooperativeID",
+      "options": {
+        "nestRemoting": true
+      }
+    }
+  },
   "acls": [],
   "methods": {}
 }

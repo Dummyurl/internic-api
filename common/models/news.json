@@ -6,9 +6,39 @@
   "options": {
     "validateUpsert": true
   },
-  "properties": {},
+  "properties": {
+    "createAt": {
+      "type": "date",
+      "required": false
+    }
+  },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "cooperative": {
+      "type": "belongsTo",
+      "model": "Cooperative",
+      "foreignKey": "cooperativeID",
+      "options": {
+        "nestRemoting": true
+      }
+    },
+    "typeNew": {
+      "type": "belongsTo",
+      "model": "TypeNews",
+      "foreignKey": "typeNewID",
+      "options": {
+        "nestRemoting": true
+      }
+    },
+    "locations": {
+      "type": "belongsTo",
+      "model": "Location",
+      "foreignKey": "locationID",
+      "options": {
+        "nestRemoting": true
+      }
+    }
+  },
   "acls": [],
   "methods": {}
 }

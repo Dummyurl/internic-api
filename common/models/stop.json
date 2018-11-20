@@ -22,10 +22,23 @@
     "longitude": {
       "type": "number",
       "required": true
+    },
+    "createAt": {
+      "type": "date",
+      "required": false
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "pictureStop": {
+      "type": "belongsTo",
+      "model": "PictureStop",
+      "foreignKey": "pictureStopID",
+      "options": {
+        "nestRemoting": true
+      }
+    }
+  },
   "acls": [],
   "methods": {}
 }

@@ -18,10 +18,23 @@
     "urlImage": {
       "type": "string",
       "required": true
+    },
+    "createAt": {
+      "type": "date",
+      "required": false
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "cooperative": {
+      "type": "belongsTo",
+      "model": "Cooperative",
+      "foreignKey": "cooperativeID",
+      "options": {
+        "nestRemoting": true
+      }
+    }
+  },
   "acls": [],
   "methods": {}
 }
