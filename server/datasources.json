@@ -2,5 +2,14 @@
   "db": {
     "name": "db",
     "connector": "memory"
+  },
+  "mysql": {
+    "host": "pfw0ltdr46khxib3.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+    "port": 3306,
+    "database": "tpxf3wljhn95rz97",
+    "password": "rolsxy6vom8cdijy",
+    "name": "mysql",
+    "user": "qxkaelm1sk405l0a",
+    "connector": "mysql"
   }
 }

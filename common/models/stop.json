@@ -31,9 +31,9 @@
   "validations": [],
   "relations": {
     "pictureStop": {
-      "type": "belongsTo",
+      "type": "hasMany",
       "model": "PictureStop",
-      "foreignKey": "pictureStopID",
+      "foreignKey": "stopID",
       "options": {
         "nestRemoting": true
       }

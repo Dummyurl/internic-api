@@ -14,77 +14,77 @@
     ]
   },
   "User": {
-    "dataSource": "db"
+    "dataSource": "mysql"
   },
   "AccessToken": {
-    "dataSource": "db",
+    "dataSource": "mysql",
     "public": false
   },
   "ACL": {
-    "dataSource": "db",
+    "dataSource": "mysql",
     "public": false
   },
   "RoleMapping": {
-    "dataSource": "db",
+    "dataSource": "mysql",
     "public": false,
     "options": {
       "strictObjectIDCoercion": true
     }
   },
   "Role": {
-    "dataSource": "db",
+    "dataSource": "mysql",
     "public": false
   },
   "Cooperative": {
-    "dataSource": "db",
+    "dataSource": "mysql",
     "public": true
   },
   "News": {
-    "dataSource": "db",
+    "dataSource": "mysql",
     "public": true
   },
   "Location": {
-    "dataSource": "db",
+    "dataSource": "mysql",
     "public": true
   },
   "Route": {
-    "dataSource": "db",
+    "dataSource": "mysql",
     "public": true
   },
   "Interlocal": {
-    "dataSource": "db",
+    "dataSource": "mysql",
     "public": true
   },
   "Stop": {
-    "dataSource": "db",
+    "dataSource": "mysql",
     "public": true
   },
   "PictureStop": {
-    "dataSource": "db",
+    "dataSource": "mysql",
     "public": true
   },
   "UserCooperative": {
-    "dataSource": "db",
+    "dataSource": "mysql",
     "public": true
   },
   "UserRoute": {
-    "dataSource": "db",
+    "dataSource": "mysql",
     "public": true
   },
   "Comment": {
-    "dataSource": "db",
+    "dataSource": "mysql",
     "public": true
   },
   "TypeComment": {
-    "dataSource": "db",
+    "dataSource": "mysql",
     "public": true
   },
   "TypeUser": {
-    "dataSource": "db",
+    "dataSource": "mysql",
     "public": true
   },
   "TypeNews": {
-    "dataSource": "db",
+    "dataSource": "mysql",
     "public": true
   }
 }
