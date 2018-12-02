@@ -25,7 +25,8 @@ module.exports = function(Route) {
 
             if(err != null){
                 cb(null, err); // whatever you want to return
-            }else{
+            }else if(stops != undefined && stops != null){
+
                 for (let index = 0; index < stops.length; index++) {
                     
                     var stop = stops[index];
@@ -40,9 +41,11 @@ module.exports = function(Route) {
                         "routeID": route.id,
                         "pictureStop": stop.pictureStop
                     },function(err, stopResutl){
+                        
                         if(err != null){
                             cb(null, err); // whatever you want to return
-                        }else{
+                        }else if(stop.pictureStop != undefined && stop.PictureStop != null){
+                            
                             var arrayPic = stop.pictureStop;
                             for (let i = 0; i < arrayPic.length; i++) {
                                 var picStop = arrayPic[i];

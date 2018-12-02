@@ -13,11 +13,11 @@
     },
     "description": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "name": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "createAt": {
       "type": "date",
