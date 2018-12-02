@@ -7,6 +7,14 @@
     "validateUpsert": true
   },
   "properties": {
+    "title": {
+      "type": "date",
+      "required": false
+    },
+    "description": {
+      "type": "date",
+      "required": false
+    },
     "createAt": {
       "type": "date",
       "required": false
