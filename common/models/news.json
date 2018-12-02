@@ -8,11 +8,11 @@
   },
   "properties": {
     "title": {
-      "type": "date",
+      "type": "string",
       "required": false
     },
     "description": {
-      "type": "date",
+      "type": "string",
       "required": false
     },
     "createAt": {
