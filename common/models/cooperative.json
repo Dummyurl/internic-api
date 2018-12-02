@@ -13,23 +13,31 @@
     },
     "description": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "urlCoverImage": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "urlShield": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "qualification": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "fullName": {
       "type": "string",
       "required": true
+    },
+    "contactNumber": {
+      "type": "string",
+      "required": false
+    },
+    "contactType": {
+      "type": "number",
+      "required": false
     },
     "createAt": {
       "type": "date",

@@ -25,7 +25,16 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "stop": {
+      "type": "belongsTo",
+      "model": "Stop",
+      "foreignKey": "stopID",
+      "options": {
+        "nestRemoting": true
+      }
+    }
+  },
   "acls": [],
   "methods": {}
 }
