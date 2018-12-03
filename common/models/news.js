@@ -6,6 +6,9 @@ module.exports = function(News) {
           this.createAt = Date.now();
           this.id = undefine;
         }
+        if(this.id === 0 || this.id === null){
+          this.id = undefined;
+        }
         if (next) next();
       };
 };
