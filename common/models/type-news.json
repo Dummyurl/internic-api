@@ -18,6 +18,10 @@
     "createAt": {
       "type": "date",
       "required": false
+    },
+    "imageURL": {
+      "type": "string",
+      "required": false
     }
   },
   "validations": [],
