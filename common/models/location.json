@@ -9,7 +9,7 @@
   "properties": {
     "altitude": {
       "type": "number",
-      "required": true
+      "required": false
     },
     "latitude": {
       "type": "number",
@@ -21,19 +21,15 @@
     },
     "accuracy": {
       "type": "number",
-      "required": true
+      "required": false
     },
     "bearing": {
       "type": "number",
-      "required": true
-    },
-    "provider": {
-      "type": "number",
-      "required": true
+      "required": false
     },
     "time": {
-      "type": "date",
-      "required": true
+      "type": "number",
+      "required": false
     },
     "name": {
       "type": "string",
