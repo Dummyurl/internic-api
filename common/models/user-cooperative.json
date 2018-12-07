@@ -14,7 +14,7 @@
   },
   "validations": [],
   "relations": {
-    "cooperatives": {
+    "cooperative": {
       "type": "belongsTo",
       "model": "Cooperative",
       "foreignKey": "cooperativeID",
