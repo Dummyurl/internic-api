@@ -30,6 +30,10 @@
     "createAt": {
       "type": "date",
       "required": false
+    },
+    "miniatureURL": {
+      "type": "string",
+      "required": false
     }
   },
   "validations": [],
