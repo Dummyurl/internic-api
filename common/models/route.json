@@ -31,7 +31,7 @@
       "type": "date",
       "required": false
     },
-    "miniatureURL": {
+    "urlImage": {
       "type": "string",
       "required": false
     }
