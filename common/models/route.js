@@ -8,6 +8,7 @@ module.exports = function(Route) {
         time,
         cost,
         cooperativeID,
+        urlImage,
         stops,
         cb) {
 
@@ -20,6 +21,7 @@ module.exports = function(Route) {
             "time":time,
             "cost" : cost, 
             "cooperativeID" : cooperativeID,
+            "urlImage" : urlImage,
             "createAt" : Date.now(), 
             "stops" : stops}, function(err,route) {
 
@@ -79,6 +81,7 @@ module.exports = function(Route) {
             {arg: 'time', type: 'number'},
             {arg: 'cost', type: 'number'},
             {arg: 'cooperativeID', type: 'number'},
+            {arg: 'urlImage', type: 'string'},
             {arg: 'stops', type: 'array'}
             ],
         returns: {arg: 'Route', type: 'object'}
