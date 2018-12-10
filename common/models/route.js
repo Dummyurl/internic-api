@@ -1,7 +1,6 @@
 'use strict';
 
 module.exports = function(Route) {
-
     Route.savefullroute = function(name, 
         description,
         distance,
@@ -84,7 +83,7 @@ module.exports = function(Route) {
             {arg: 'urlImage', type: 'string'},
             {arg: 'stops', type: 'array'}
             ],
-        returns: {arg: 'Route', type: 'object'}
+        returns: {type: 'object',root: true}
         }
     );
 };
